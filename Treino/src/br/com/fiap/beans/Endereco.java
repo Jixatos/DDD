@@ -4,29 +4,28 @@ public class Endereco {
 
 	private String logradouro;
 	private int numero;
-	private String cep;
-	private String bairro;
+	private String pais;
+	private String cidade;
 	private String municipio;
-	private String estado;
+	private String bairro;
 	
-	//metodo construtor vazio
+	
+	//Metodo construtr vazio
 	public Endereco() {
 		super();
 	}
-	
-	//metodo construtor cheio
-	public Endereco(String logradouro, int numero, String cep, String bairro, String municipio, String estado) {
+	//Metodo construtor cheio
+	public Endereco(String logradouro, int numero, String pais, String cidade, String municipio, String bairro) {
 		super();
 		this.logradouro = logradouro;
 		this.numero = numero;
-		this.cep = cep;
-		this.bairro = bairro;
+		this.pais = pais;
+		this.cidade = cidade;
 		this.municipio = municipio;
-		this.estado = estado;
+		this.bairro = bairro;
 	}
-
-
-	//setters and getters
+	
+	//Getters and Setters
 	public String getLogradouro() {
 		return logradouro;
 	}
@@ -39,17 +38,17 @@ public class Endereco {
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}
-	public String getCep() {
-		return cep;
+	public String getPais() {
+		return pais;
 	}
-	public void setCep(String cep) {
-		this.cep = cep;
+	public void setPais(String pais) {
+		this.pais = pais;
 	}
-	public String getBairro() {
-		return bairro;
+	public String getCidade() {
+		return cidade;
 	}
-	public void setBairro(String bairro) {
-		this.bairro = bairro;
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
 	}
 	public String getMunicipio() {
 		return municipio;
@@ -57,12 +56,14 @@ public class Endereco {
 	public void setMunicipio(String municipio) {
 		this.municipio = municipio;
 	}
-	public String getEstado() {
-		return estado;
+	public String getBairro() {
+		return bairro;
 	}
-	public void setEstado(String estado) {
-		this.estado = estado;
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
 	}
+	
+	
 	
 	
 }
