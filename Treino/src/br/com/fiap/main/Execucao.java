@@ -63,13 +63,15 @@ public class Execucao {
 				"\nEndereco: " + objPf.getEndereco() +
 				"\nRG: " + objPf.getRg() +
 				"\nCPF" + objPf.getCpf() +
+				"\nIdentificador: " + objPj.identificador() +
 				"\nNome: " + objPj.getNome() +
 				"\nEmail: " + objPj.getEmail() +
 				"\nIdade: " + objPj.getIdade() +
 				"\nRenda: " + objPj.getRenda() +
 				"\nEndereco: " + objPj.getEndereco() +
 				"\nRazão Social: " + objPj.getRazaoSocial() +
-				"\nCNPJ: " + objPj.getCnpj()
+				"\nCNPJ: " + objPj.getCnpj() +
+				"\nIdentificador: " + objPf.identificador()
 				);
 		
 	}

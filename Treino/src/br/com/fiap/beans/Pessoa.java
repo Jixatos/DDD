@@ -65,6 +65,10 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 	
-	
+	public String identificador() {
+		return "Sem identificação";
+	}
 	
 }
+
+
